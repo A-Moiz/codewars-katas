@@ -76,4 +76,4 @@ This demonstrates learning progression rather than just completion.
 ## 👤 Author
 
 **Abdul Moiz**  
-Trainee — CodeYourFuture
+Trainee - CodeYourFuture
