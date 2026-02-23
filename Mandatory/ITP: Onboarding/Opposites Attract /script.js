@@ -1,8 +1,13 @@
 function oppositesAttract(petal1, petal2) {
-    let firstPetalTrue = petal1 % 2 === 0;
-    let secondPetalTrue = petal2 % 2 === 0;
+    try {
+        if (petal1 <= 0 || petal2 <= 0) throw new Error("Petals must be greater than 0");
 
-    if ((firstPetalTrue && !secondPetalTrue) || (!firstPetalTrue && secondPetalTrue)) return true; else return false;
+        let firstPetalTrue = petal1 % 2 === 0;
+        let secondPetalTrue = petal2 % 2 === 0;
+        return firstPetalTrue !== secondPetalTrue;
+    } catch {
+        return "Petals must be greater than 0";
+    }
 }
 
-console.log(oppositesAttract(2, 7));
+console.log(oppositesAttract(4, 7));
