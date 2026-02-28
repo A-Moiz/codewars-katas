@@ -1,11 +1,4 @@
 # Codewars Katas — Opposite number
 
 ## Description:
-Very simple, given a number, find its opposite (additive inverse).
-
-### Examples:
-```
-1: -1
-14: -14
--34: 34
-```
+Create a function that takes an integer as an argument and returns `"Even"` for even numbers or `"Odd"` for odd numbers.
